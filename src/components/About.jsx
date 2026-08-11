@@ -99,10 +99,10 @@ export default function About() {
               </p>
             </div>
 
-            <button className="btn-secondary" style={{ marginTop: '1.75rem' }} id="btn-brochure" aria-label="Download Conference Brochure (Coming Soon)">
+            <a href="/brochure.pdf" download="IMC_2026_Brochure.pdf" className="btn-secondary" style={{ marginTop: '1.75rem', display: 'inline-flex', textDecoration: 'none' }} id="btn-brochure" aria-label="Download Conference Brochure">
               <iconify-icon icon="lucide:file-down" style={{ fontSize: '16px' }}></iconify-icon>
               Download Brochure
-            </button>
+            </a>
           </div>
 
           {/* Highlight tags */}
